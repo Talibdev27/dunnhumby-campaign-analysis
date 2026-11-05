@@ -1,0 +1,15 @@
+# raw Kaggle data (too big for GitHub, and dunnhumby's license) + local caches
+*.csv
+!reports/*.csv
+data/
+*.duckdb
+*.duckdb.wal
+
+# environment / tooling
+.venv/
+kaggle.json
+.ipynb_checkpoints/
+.DS_Store
+__pycache__/
+.pytest_cache/
+.ruff_cache/
